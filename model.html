@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="model.css">
+</head>
+
+<body>
+    <div class="red">
+        <button onclick="clickMe()">Click_Here</button>
+    </div>
+    <div id="box">
+        <div class="child">
+            <button onclick="cross()"><span class="cross"><i class="fa-regular fa-circle-xmark"></i></span></button>
+        </div>
+        <div id="para">
+            <h1>JAVASCRIPT</h1>
+            <p>JavaScript is one of the most widely used programming languages in the world, powering many of the web's
+            most popular sites and applications. It is a high-level, dynamic, and interpreted language that is used
+            to create interactive and dynamic web pages, mobile applications, and desktop applications.</p>
+        </div>
+    </div>
+
+    <script>
+        function clickMe() {
+            let a = document.getElementById("box");
+                a.style="display:block";
+        }
+
+        function cross(){
+            let b=document.getElementById("box");
+            b.style="visibility:hidden";
+        }
+    </script>
+
+
+
+</body>
+
+</html>

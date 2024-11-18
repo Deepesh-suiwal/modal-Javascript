@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.red button{
+    color: #fff;
+    background-color: crimson;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+#box{
+    height: 240px;
+    width: 330px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin:  10rem auto;
+    color: #fff;
+    text-align: center;
+    padding: 25px 10px;
+    position: relative;
+    display: none;
+    
+}
+
+#para p{
+    text-align: justify;
+}
+.child {
+    position: absolute;
+    top: 9px;
+    right: 8px;
+}
+.fa-regular, .far {
+    font-weight: 400;
+    color: white;
+    background: crimson;
+    padding: 6px;
+    
+}
